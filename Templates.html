@@ -1,0 +1,443 @@
+<html>
+<head>
+    <title>Templates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sevillana&display=swap" rel="stylesheet">
+    <style>
+        *{
+          font-family: "Edu AU VIC WA NT Hand";
+        }
+        .a1{
+            overflow: hidden;
+            background-color:white;
+            z-index: 999;
+            position: sticky;
+            top: 0px;
+        }
+        .a1 a{
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+            color: black;
+        }
+        .a1 a:hover{
+            background-color: lightgray;
+            color: black;
+        }
+        .a2{
+            background-image: url(mac.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 800px;
+            filter: grayscale(60%);
+        }
+        .a3{
+            text-align: center;
+            padding: 100px 0px;
+        }
+        .a4{
+            background-color: whitesmoke;
+            padding: 100px 30px;
+        }
+        .a5{
+            background-color: whitesmoke;
+            padding: 50px 30px;
+        }
+        .a6{
+            background-color: rgb(97,97,97);
+            color: white;
+            text-align: center;
+            padding: 100px 0px;
+            width: 100%;
+        }
+        .a7{
+            background-color: whitesmoke;
+            width: 100%;
+            padding: 100px 0px;
+        }
+        .a8{
+            text-align: center;
+            background-color: black;
+            width: 100%;
+            padding: 60px 0px;
+        }
+        .li{
+            margin-left: 830px;
+        }
+        .p1{
+            color: white;
+            font-size: xx-large;
+            padding: 230px 0px 0px 50px;
+        }
+        .p2{
+            padding: 10px 25px;
+            background-color: gray;
+            font-size: large;
+            border: none;
+        }
+        .p2:hover{
+            padding: 10px 25px;
+            background-color: lightgray;
+            font-size: large;
+            border: none;
+        }
+        .p3{
+            margin-top: 195px;
+        }
+        .p4{
+            padding: 10px 25px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        .p4:hover{
+            padding: 10px 25px;
+            background-color: lightgray;
+            color: black;
+            border: none;
+        }
+        .p5{
+            display: flex;
+            align-items: center;
+            color: black;
+            padding: 10px 130px;
+            background-color: whitesmoke;
+            border: none;
+            margin-top: 10px;
+        }
+        .p5:hover{
+            display: flex;
+            align-items: center;
+            color: black;
+            padding: 10px 130px;
+            background-color: lightgray;
+            border: none;
+            margin-top: 10px;
+        }
+        .p6{
+            align-items: center;
+            color: black;
+            padding: 10px 50px;
+            background-color: whitesmoke;
+            border: none;
+        }
+        .p6:hover{
+            align-items: center;
+            color: black;
+            padding: 10px 50px;
+            background-color: lightgray;
+            border: none;
+        }
+        .img{
+            margin: 7.5px 7.5px;
+        }
+        .img:hover{
+            opacity: 0.7;
+        }
+        hr{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="a1">
+        <a href="#Logo">LOGO</a>
+        <a href="#About" class="li"> ABOUT</a>
+        <a href="#Team"> <i class="fa-solid fa-user"></i> TEAM</a>
+        <a href="#Work"> <i class="fa-solid fa-th"></i> WORK</a>
+        <a href="#Pricing"> <i class="fa-solid fa-dollar-sign"></i> PRICING</a>
+        <a href="#Contact"> <i class="fa-solid fa-envelope"></i> CONTACT</a>
+    </section>
+
+    <section class="a2" id="Logo">
+
+        <div class="p1">
+            <h1>Start something that matters</h1>
+            <p>Stop wasting valuable time with projects that just isn't you.</p>
+            <a href="#About"><button type="button" class="p2">Learn more and start today</button></a>
+
+          <div class="p3">
+            <i class="fa-brands fa-square-facebook" style="color: blue;"></i>
+            <i class="fa-brands fa-instagram" style="color: blueviolet;"></i>
+            <i class="fa-brands fa-snapchat" style="color: yellow;"></i>
+            <i class="fa-brands fa-square-x-twitter" style="color: white;"></i>
+            <i class="fa-brands fa-linkedin" style="color: blue;"></i>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="a3" id="About">
+
+        <h1>ABOUT THE COMPANY</h1>
+        <h4>Key features of our company</h4>
+
+        <div style="display: flex;justify-content: space-around;padding: 25px 0px;">
+
+            <div>
+                <i class="fa-solid fa-desktop" style="font-size: 90px;color: black;"></i>
+                <h4>Responsive</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-heart" style="font-size: 90px;color: rgb(226, 52, 52);"></i>
+                <h4>Passion</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen-nib" style="font-size: 90px;color: blue;"></i>
+                <h4>Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-gear" style="font-size: 90px;color: grey;"></i>
+                <h4>Support</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="a4">
+     <div style="display: flex;justify-content: space-between;">
+
+        <div style="width: 35%;">
+            <h1>We know design.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <a href="#Work"><button type="button" class="p4"> <i class="fa-solid fa-th"></i> View Our Works</button></a>
+        </div>
+
+        <div>
+            <img src="phone_buildings.jpg" alt="phone_buildings">
+        </div>
+
+     </div>
+    </section>
+
+    <section class="a3" id="Team">
+
+        <h1>THE TEAM</h1>
+        <h4>The ones who runs this company</h4>
+
+        <div style="display: flex;justify-content: space-around;align-items: center;margin-top: 50px;">
+
+            <div style="width:23%;padding-bottom: 15px;background-color: white;box-shadow: 5px 5px 5px 5px lightgray;text-align: start;margin: 0px 5px 0px 10px;">
+              <img src="team2.jpg" alt="Team" width="100%" style="filter: grayscale(80%);">
+
+                <div style="padding: 0px 10px;">
+                 <h1>John Doe</h1>
+                 <h4 style="color: gray;opacity: 0.7;">CEO & Founder</h4>
+                 <p>Phasellus eget enium eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                 <button type="button" class="p5"> <i class="fa-solid fa-envelope" style="padding: 0px 2px;"></i> Contact</button>
+                </div>
+
+            </div>
+
+            <div style="width:23%;padding-bottom: 15px;background-color: white;box-shadow: 5px 5px 5px 5px lightgray;text-align: start;margin: 0px 5px;">
+                <img src="team1.jpg" alt="Team" width="100%" style="filter: grayscale(80%);">
+
+                  <div style="padding: 0px 10px;">
+                   <h1>Anja Doe</h1>
+                   <h4 style="color: gray;opacity: 0.7;">Art Director</h4>
+                   <p>Phasellus eget enium eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                   <button type="button" class="p5"> <i class="fa-solid fa-envelope" style="padding: 0px 2px;"></i> Contact</button>
+                  </div>
+
+              </div>
+
+              <div style="width:23%;padding-bottom: 15px;background-color: white;box-shadow: 5px 5px 5px 5px lightgray;text-align: start;margin: 0px 5px;">
+                <img src="team3.jpg" alt="Team" width="100%" style="filter: grayscale(80%);">
+
+                  <div style="padding: 0px 10px;">
+                   <h1>Mike Ross</h1>
+                   <h4 style="color: gray;opacity: 0.7;">Web Designer</h4>
+                   <p>Phasellus eget enium eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                   <button type="button" class="p5"> <i class="fa-solid fa-envelope" style="padding: 0px 2px;"></i> Contact</button>
+                  </div>
+
+              </div>
+
+              <div style="width:23%;padding-bottom: 15px;background-color: white;box-shadow: 5px 5px 5px 5px lightgray;text-align: start;margin: 0px 5px;">
+                <img src="team4.jpg" alt="Team" width="100%" style="filter: grayscale(80%);">
+
+                  <div style="padding: 0px 10px;">
+                   <h1>Dan Star</h1>
+                   <h4 style="color: gray;opacity: 0.7;">Designer</h4>
+                   <p>Phasellus eget enium eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                   <button type="button" class="p5"> <i class="fa-solid fa-envelope" style="padding: 0px 2px;"></i> Contact</button>
+                  </div>
+
+              </div>
+        </div>
+    </section>
+
+    <section style="display: flex;justify-content: space-around;background-color: rgb(97,97,97);color: white;padding: 35px 0px;">
+        <div>
+            <h1>14+</h1>
+            <h4>Partners</h4>
+        </div>
+        <div>
+            <h1>55+</h1>
+            <h4>Projects Done</h4>
+        </div>
+        <div>
+            <h1>89+</h1>
+            <h4>Happy Clients</h4>
+        </div>
+        <div>
+            <h1>150+</h1>
+            <h4>Meetings</h4>
+        </div>
+    </section>
+
+    <section class="a3" id="Work">
+
+        <h1>OUR WORK</h1>
+        <h4>What we've done for people</h4>
+
+            <div style="display: flex;justify-content: space-around;margin: 70px 10px 0px 10px;">
+              <img src="tech_mic.jpg" alt="tech_mic" width="100%" class="img">
+              <img src="tech_phone.jpg" alt="tech_mic" width="100%" class="img">
+              <img src="tech_drone.jpg" alt="tech_mic" width="100%" class="img">
+              <img src="tech_sound.jpg" alt="tech_mic" width="100%" class="img">
+            </div>
+
+            <div style="display: flex;justify-content: space-around;margin: 0px 10px;">
+                <img src="tech_tablet.jpg" alt="tech_mic" width="100%" class="img">
+                <img src="tech_camera.jpg" alt="tech_mic" width="100%" class="img">
+                <img src="tech_typewriter.jpg" alt="tech_mic" width="100%" class="img">
+                <img src="tech_tableturner.jpg" alt="tech_mic" width="100%" class="img">
+              </div>
+    </section>
+
+    <section class="a5">
+     <div style="display: flex;justify-content: space-between;align-items: center;">
+
+        <div style="width:35%;">
+           <h1>Our Skills.</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+
+        <section style="width: 50%;">
+            <h4> <i class="fa-solid fa-camera"></i> Photography</h4>
+          <div style="background-color: gray !important;color: white !important;">
+            <div style="width: 90%;background-color: rgb(97,97,97) !important;color: white !important;text-align: center;">90%</div>
+          </div>
+
+          <h4> <i class="fa-solid fa-desktop"></i> Web Design</h4>
+          <div style="background-color: gray !important;color: white !important;">
+            <div style="width: 85%;background-color: rgb(97,97,97) !important;color: white !important;text-align: center;">85%</div>
+          </div>
+
+          <h4> <i class="fa-regular fa-image"></i> Photoshop</h4>
+          <div style="background-color: gray !important;color: white !important;">
+            <div style="width: 75%;background-color: rgb(97,97,97) !important;color: white !important;text-align: center;">75%</div>
+          </div>
+        </section>
+
+     </div>
+    </section>
+
+    <section class="a6" id="Pricing">
+        <h1>PRICING</h1>
+        <p>Choose a pricing plan that fits your needs.</p>
+
+        <div style="display: flex;justify-content: space-around;align-items: center;margin-top: 50px;">
+
+            <div style="background-color:white;color: black;text-align: center;width: 100%;margin: 0px 10px 0px 30px;">
+                <div style="background-color: black;color: white;padding: 25px 0px">
+                   <h1>Basic</h1>
+                </div>
+                  <p> <b>10GB</b> Storage</p><hr>
+                  <p> <b>10</b> Emails</p><hr>
+                  <p> <b>10</b> Domains</p><hr>
+                  <p> <b>Endless</b> Support</p><hr>
+                  <h1 style="margin-top: 30px;">$ 10</h1>
+                  <p>per month</p>
+                <div style="padding: 30px 0px;background-color: whitesmoke;">
+                  <button type="button" class="p4">Sign Up</button>
+                </div>
+            </div>
+
+            <div style="background-color:white;color: black;text-align: center;width: 100%;margin: 0px 10px;">
+                <div style="background-color: rgb(244, 67, 54);color: white;padding: 40px 0px">
+                   <h1>Pro</h1>
+                </div>
+                  <p> <b>25GB</b> Storage</p><hr>
+                  <p> <b>25</b> Emails</p><hr>
+                  <p> <b>25</b> Domains</p><hr>
+                  <p> <b>Endless</b> Support</p><hr>
+                  <h1 style="margin-top: 30px;">$ 25</h1>
+                  <p>per month</p>
+                <div style="padding: 30px 0px;background-color: whitesmoke;">
+                  <button type="button" class="p4">Sign Up</button>
+                </div>
+            </div>
+
+            <div style="background-color:white;color: black;text-align: center;width: 100%;margin: 0px 30px 0px 10px;">
+                <div style="background-color: black;color: white;padding: 25px 0px">
+                   <h1>Premium</h1>
+                </div>
+                  <p> <b>50GB</b> Storage</p><hr>
+                  <p> <b>50</b> Emails</p><hr>
+                  <p> <b>50</b> Domains</p><hr>
+                  <p> <b>Endless</b> Support</p><hr>
+                  <h1 style="margin-top: 30px;">$ 50</h1>
+                  <p>per month</p>
+                <div style="padding: 30px 0px;background-color: whitesmoke;">
+                  <button type="button" class="p4">Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="a7" id="Contact">
+
+        <div style="text-align: center;">
+          <h1>CONTACT</h1>
+          <h4>Lets get in touch. Send us a message:</h4>
+        </div>
+
+        <div style="text-align: start;">
+            <h4> <i class="fa-solid fa-location-dot" style="font-size: xx-large;color: red;padding: 0px 20px;"></i> Chicago, US</h4>
+            <h4> <i class="fa-solid fa-phone" style="font-size: xx-large;color: blue;padding: 0px 20px;"></i> Phone: +00 151515</h4>
+            <h4> <i class="fa-solid fa-envelope" style="font-size: xx-large;color: black;padding: 0px 20px;"></i> Email: mail@mail.com</h4>
+        </div>
+
+        <div style="margin: 50px 10px;">
+            <input type="text" placeholder="Name" style="padding: 10px 10px;width: 100%;">
+            <input type="text" placeholder="Email" style="padding: 10px 10px;width: 100%;margin-top: 20px;">
+            <input type="text" placeholder="Submit" style="padding: 10px 10px;width: 100%;margin-top: 20px;">
+            <input type="text" placeholder="Message" style="padding: 10px 10px;width: 100%;margin-top: 20px;">
+            <button type="button" class="p4" style="margin-top: 20px;"> <i class="fa-solid fa-paper-plane" style="font-size: x-large;padding: 0px 5px;"></i> SEND MESSAGE</button>
+        </div>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113192.13731442878!2d76.56397413093607!3d27.554617448546455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3972998fa7e65df3%3A0x38cebba39ee426f2!2sAlwar%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1721984717979!5m2!1sen!2sin" width="99%" height="900" style="border:0;margin: 20px 7px 0px 7px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="a8">
+        <a href="#Logo"><button type="button" class="p6"> <i class="fa-solid fa-arrow-up" style="font-size: x-large;padding: 0px 5px;"></i> To the top </button></a>
+      <div style="margin: 20px 0px;">
+        <i class="fa-brands fa-square-facebook" style="font-size: xx-large;color: blue;padding: 0px 2px;"></i>
+        <i class="fa-brands fa-instagram" style="font-size: xx-large;color: blueviolet;padding: 0px 2px;"></i>
+        <i class="fa-brands fa-square-snapchat" style="font-size: xx-large;color: yellow;padding: 0px 2px;"></i>
+        <i class="fa-brands fa-x-twitter"  style="font-size: xx-large;color: white;padding: 0px 2px;"></i>
+        <i class="fa-brands fa-linkedin" style="font-size: xx-large;color: blue;padding: 0px 2px;"></i>
+      </div>
+      <h1 style="color: white;">Powered by Tushar</h1>
+    </section>
+</body>
+</html>
